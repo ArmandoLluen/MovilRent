@@ -32,6 +32,7 @@ header{
     display: inline-block;
 }
 .boton{
+    font-family: roboto;
     text-decoration: none;
     padding: 10px;
     font-weight: 400;
@@ -48,5 +49,9 @@ header{
 .boton:hover{
     color: #1883ba;
     background-color: #ffffff;
+<<<<<<< HEAD
+ }
+=======
     /*comentario random xd*/
   }
+>>>>>>> 8533b6a9a90adde7ec82254bfa8b88920a00e154

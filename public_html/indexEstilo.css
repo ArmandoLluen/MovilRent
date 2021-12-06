@@ -35,13 +35,21 @@ footer{
 .rec-serv{
     background: #4AC0F2;
     border-radius: 15px;
-    height: 325px;
-    width: 400px;
+    height: 300px;
+    width: 375px;
+    margin:10px 25px auto;
+    display: inline-block;
+}
+.cajones{
     margin: auto;
+    text-align: center;
 }
 .rec-serv img{
     height: 200px;
     width: 300px;
     border-radius: 30px;
-    margin: 20px 45px auto;
+    margin: 20px 40px auto;
+}
+.rec-serv form{
+    margin: 10px 105px auto;
 }
