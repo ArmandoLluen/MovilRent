@@ -1,8 +1,0 @@
-diff a/public_html/menuEstilo.css b/public_html/menuEstilo.css	(rejected hunks)
-@@ -48,4 +48,5 @@
- .boton:hover{
-     color: #1883ba;
-     background-color: #ffffff;
-+    /*comentario random xd*/
-   }
-\ No newline at end of file
