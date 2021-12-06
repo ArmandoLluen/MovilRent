@@ -1,0 +1,51 @@
+
+header{
+    font-family: roboto;
+    overflow: hidden;
+    background: #4ac0f2;
+    width: 100%;
+    margin: auto;
+}
+.menu{
+    display: inline-block;
+    text-align: center;
+}
+.menu div a{
+    text-decoration: none;
+    color: #00366E;
+    padding: 20px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.menu div a:hover{
+    background: white;
+}
+
+.icono{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    float: left;
+    padding: 10px;
+    display: inline-block;
+}
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #00366E;
+    border-radius: 15px;
+    border: none;
+}
+.botones{
+    margin: 10px;
+    float: right;
+}
+.boton:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }

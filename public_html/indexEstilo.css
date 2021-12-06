@@ -1,0 +1,47 @@
+body{
+    font-family: roboto,helvatica;
+    background: #ffffff;
+    max-width: 1000px;
+    margin: auto;
+}
+.imenu {
+    width: 100%;
+    margin: auto;
+}
+.imenu img{
+    height: 512px;
+    width: 1213px;
+}
+footer{
+    width: 100%;
+}
+.subtitulo{
+    height: 65px;
+    width: 200px;
+    background: #F4F1EA;
+    border-radius: 0px 15px 15px 0px;
+    font-family: Patrick Hand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #222D6D;
+    float: left;
+    padding: 10px;
+}
+.rec-serv{
+    background: #4AC0F2;
+    border-radius: 15px;
+    height: 325px;
+    width: 400px;
+    margin: auto;
+}
+.rec-serv img{
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
+    margin: 20px 45px auto;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="indexEstilo.css" type="text/css"/>
+        <title>MovilRent </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header class="imenu">
+            <div id="menu"> </div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("menu.html", function (data) {
+                $("#menu").replaceWith(data);
+            });</script>
+            <img src="fotos\banner.jpg" alt="banner"/>
+        </header>
+        <section class="servicio">
+            <div class="subtitulo">
+                <p>Servicios:</p>
+            </div>
+            <div class="rec-serv">
+                <img src="fotos\alquilar_vehiculo.jpg" alt="servicio"/>
+                <div class="boton">Alquilar Vehiculo</div>
+            </div>
+        </section>
+        <footer>
+            <div id="footer"> </div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("footer.html", function (data) {
+                $("#footer").replaceWith(data);
+            });</script>
+        </footer>
+    </body>
+    
+        
+</html>
