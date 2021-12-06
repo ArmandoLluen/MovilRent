@@ -13,6 +13,7 @@ body{
     background: #ffffff;
     max-width: 1000px;
     align-items:  center;
+    margin: auto;
 }
 .registrar-style{
      align-items: center;

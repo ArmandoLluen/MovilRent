@@ -12,6 +12,7 @@ body{
     background: #ffffff;
     max-width: 1000px;
     align-items:  center;
+    margin: auto;
 }
 .login-style{
      align-items: center;

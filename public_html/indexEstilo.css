@@ -17,7 +17,7 @@ footer{
 }
 .subtitulo{
     height: 65px;
-    width: 200px;
+    width: 250px;
     background: #F4F1EA;
     border-radius: 0px 15px 15px 0px;
     font-family: Patrick Hand;
@@ -52,4 +52,42 @@ footer{
 }
 .rec-serv form{
     margin: 15px 10px auto;
+}
+.rec-con{
+    font-family: Post No Bills Colombo SemiBold;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    background: #4AC0F2;
+    border-radius: 15px;
+    height: 420px;
+    width: 500px;
+    margin:10px 10px auto;
+    display: inline-block;
+    float: right;
+}
+.mapa{
+    width: 450px;
+    height: 300px;
+    border: none;
+    border-radius: 15px;
+}
+.texto-con{
+    font-family: Post No Bills Colombo SemiBold;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    float:  left;
+}
+.Ubicanos{
+    height: 430px;
+    background-image: url(fotos/fondo_confeti.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
 }
