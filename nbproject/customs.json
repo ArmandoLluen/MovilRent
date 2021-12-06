@@ -3,7 +3,8 @@
         "a": {
             "attributes": {
                 "style": {},
-                "href": {}
+                "href": {},
+                "class": {}
             }
         }
     },

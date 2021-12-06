@@ -11,19 +11,19 @@ body{
     font-family: roboto,helvatica;
     background: #ffffff;
     max-width: 1000px;
-    aling: center;
+    align-items:  center;
 }
 .login-style{
-     alling: center;
+     align-items: center;
      margin:1px auto 1px auto;
      color:white;
-     
 }
 input{
     background: white;
     border-radius: 5px;
     height: 25px;
     width: 200px;
+    border:none;
 }
 
 
@@ -32,7 +32,7 @@ input{
 
 .login-cont{
     font-family: roboto;
-    alling: center;
+    align-items: center;
     background: #4AC0F2;
     border-radius: 15px;
     height: 450px;
@@ -80,4 +80,9 @@ button{
     background-color: #00366E;
     border-radius: 15px;
     border: none;
+    margin: 10px auto;
 }
+.login-button:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+ }
