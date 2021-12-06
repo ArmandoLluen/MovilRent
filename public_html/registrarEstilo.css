@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/12/2021, 01:37:41 PM
+    Author     : User
+*/
+
+body{
+    font-family: roboto,helvatica;
+    background: #ffffff;
+    max-width: 1000px;
+    align-items:  center;
+}
+.registrar-style{
+     align-items: center;
+     margin:1px auto 1px auto;
+     color:white;
+}
+input{
+    background: white;
+    border-radius: 5px;
+    height: 25px;
+    width: 390px;
+    border:none;
+    font-size: 24px;
+}
+
+
+.registrar-cont{
+    font-family: roboto;
+    align-items: center;
+    background: #4AC0F2;
+    border-radius: 15px;
+    height: 650px;
+    width: 500px;
+    margin:10px auto 10px auto;
+    display:block;
+    color: #00366E;
+    text-align:center;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+    
+}
+button{
+    margin: 1px auto 5px auto;
+    
+}
+.registrar-cont input{
+    margin: 1px auto 10px auto;
+}
+.registrar-cont p{
+    margin: 10px auto 1px auto;
+}
+
+.login-button{
+    font-family: roboto;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #00366E;
+    border-radius: 15px;
+    border: none;
+    margin: 5px auto;
+}
+.login-button:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+ }
+ 
+ .llena{
+    font-family:  roboto;
+    color:white;
+    margin:10px 5px 5px 5px;
+    display: inline-block;
+    text-align:left;
+}
+.apellidos .llena input{
+    background: white;
+    border-radius: 5px;
+    height: 25px;
+    width: 190px;
+    border:none;
+    
+}
+.contraseñas{
+    font-size:16px; 
+}
+.contraseñas .llena input{
+    background: white;
+    border-radius: 5px;
+    height: 25px;
+    width: 190px;
+    border:none;
+}

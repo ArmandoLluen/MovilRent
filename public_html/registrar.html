@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="registrarEstilo.css" type="text/css"/>
+        <link rel="stylesheet" href="footerEstilo.css" type="text/css"/>
+        <link rel="stylesheet" href="menuEstilo.css" type="text/css"/>
+        <title>MovilRent </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header class="imenu">
+            <div id="menu"></div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("menu.html", function (data) {
+                $("#menu").replaceWith(data);
+            });</script>
+        </header>
+        <br>
+        
+        <section>
+           <div class="registrar-cont">
+               <h1>REGISTRARSE</h1>
+               
+                <div class="registrar-style">
+                    
+                    
+                    <div class="apellidos">
+                        <div class="llena" >
+                           <p>APELLIDO PATERNO</p>
+                           <input>         
+                       </div>
+                       <div class="llena">
+                           <p>APELLIDO MATERNO</p>
+                           <input>         
+                       </div> 
+                    </div>
+                    
+                    <div class="llena">
+                        <p>NOMBRES</p>
+                        <input>         
+                    </div>
+                    <p></p>
+                    <div class="llena">
+                        <p>CORREO</p>
+                        <input type="email">         
+                    </div>
+                    <p></p>
+                    <div class="llena">
+                        <p>TELÉFONO</p>
+                        <input>         
+                    </div>
+                    <p></p>
+                    
+                    <div class="contraseñas">
+                            <div class="llena">
+                               <p>CONTRASEÑA</p>
+                               <input type="password">         
+                           </div>
+                           <div class="llena">
+                               <p>CONFIRMAR CONTRASEÑA</p>
+                               <input type="password">         
+                           </div>
+                    </div>
+
+                    <p></p>
+                    <form>
+                         <button class="login-button" formaction="https://www.youtube.com/">Registrar</button>
+                    </form>
+                    
+                </div>
+              
+           </div>   
+            
+        </section>
+        
+        <br>
+        <footer>
+            <div id="footer"> </div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("footer.html", function (data) {
+                $("#footer").replaceWith(data);
+            });</script>
+        </footer>
+    </body>
+</html>
