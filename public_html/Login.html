@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+
+        <link rel="stylesheet" href="loginEstilos.css" type="text/css"/> 
+        <title>MovilRent </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header class="imenu">
+            <div id="menu"> </div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("menu.html", function (data) {
+                $("#menu").replaceWith(data);
+            });</script>
+        </header>
+       
+        
+        <section>
+            
+           <div class="login-cont">
+               <h1>INICIAR SECIÓN</h1>
+               
+                <div class="login-style">
+                    <div class="llena">
+                        <p>CORREO</p>
+                        <input type="email">         
+                    </div>
+                    <div class="llena">
+                        <p>CONTRASEÑA</p>
+                        <input type="password">         
+                    </div>
+                    <form>
+                         <button class="login-button" formaction="https://www.youtube.com/">Login</button>
+                    </form>
+                    <div class="crear-cuenta">
+                    <p>¿NO TIENES UNA CUENTA?</p>
+                    <form>
+                         <button class="login-button" formaction="https://www.youtube.com/">Registrate</button>
+                    </form>
+                    </div>
+                </div>
+              
+           </div>   
+            
+        </section>
+        
+        <br>
+        <footer>
+            <div id="footer"> </div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("footer.html", function (data) {
+                $("#footer").replaceWith(data);
+            });</script>
+        </footer>
+    </body>
+</html>

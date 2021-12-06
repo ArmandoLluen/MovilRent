@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/12/2021, 12:34:25 AM
+    Author     : User
+*/
+body{
+    font-family: roboto,helvatica;
+    background: #ffffff;
+    max-width: 1000px;
+    aling: center;
+}
+.login-style{
+     alling: center;
+     margin:1px auto 1px auto;
+     color:white;
+     
+}
+input{
+    background: white;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+}
+
+
+
+
+
+.login-cont{
+    font-family: roboto;
+    alling: center;
+    background: #4AC0F2;
+    border-radius: 15px;
+    height: 450px;
+    width: 375px;
+    margin:10px auto 10px auto;
+    display:block;
+    color: #00366E;
+    text-align: center;
+    
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 22px;
+    border-radius: 15px;
+    border: none;
+    
+}
+.llena{
+    font-family:  roboto;
+    color:white;
+    margin:20px auto 10px auto;
+}
+
+button{
+    margin: 1px auto 10px auto;
+}
+.login-cont input{
+    margin: 1px auto 10px auto;
+}
+.login-cont p{
+    margin: 10px auto 1px auto;
+}
+
+.crear-cuenta{
+    margin:30px auto 10px auto;
+}
+
+.login-button{
+    font-family: roboto;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #00366E;
+    border-radius: 15px;
+    border: none;
+}
