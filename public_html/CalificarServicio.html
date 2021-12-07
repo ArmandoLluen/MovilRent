@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="CalificarEstilo.css" type="text/css"/> 
+        <title>MovilRent </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header class="imenu">
+            <div id="menu"></div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("menu.html", function (data) {
+                $("#menu").replaceWith(data);
+            });</script>
+        </header>
+        <br>
+        
+        <section>
+            <div class="contenedor">
+                
+                <div class="estiloServico">
+                    
+                   <h2>CALIFICAR SERVICIO</h2>
+                   <img src="fotos/auto001.jpg" alt="contenedor">
+                   
+                    <div class="calificaciónTexto">
+                        
+                        
+                            <script type="text/javascript">(function(d, t, e, m){
+
+                                        // Async Rating-Widget initialization.
+                                        window.RW_Async_Init = function(){
+
+                                            RW.init({
+                                                huid: "480797",
+                                                uid: "42e97c6e96ec24ae8e38ca405693be45",
+                                                source: "website",
+                                                options: {
+                                                    "advanced": {
+                                                        "layout": {},
+                                                        "font": {}
+                                                    },
+                                                    "size": "",
+                                                    "style": "crystal_blue",
+                                                    "isDummy": false
+                                                } 
+                                            });
+                                            RW.render();
+                                        };
+                                            // Append Rating-Widget JavaScript library.
+                                        var rw, s = d.getElementsByTagName(e)[0], id = "rw-js",
+                                            l = d.location, ck = "Y" + t.getFullYear() + 
+                                            "M" + t.getMonth() + "D" + t.getDate(), p = l.protocol,
+                                            f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
+                                            a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
+                                        if (d.getElementById(id)) return;              
+                                        rw = d.createElement(e);
+                                        rw.id = id; rw.async = true; rw.type = "text/javascript";
+                                        rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
+                                        s.parentNode.insertBefore(rw, s);
+                                        }(document, new Date(), "script", "rating-widget.com/"));</script>
+                        
+                        <div class="rw-ui-container"></div>
+                    </div>
+                </div>      
+            </div>
+            
+        </section>
+        
+        <br>
+        <footer>
+            <div id="footer"> </div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("footer.html", function (data) {
+                $("#footer").replaceWith(data);
+            });</script>
+        </footer>
+    </body>
+</html>

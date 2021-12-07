@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/12/2021, 04:42:17 PM
+    Author     : User
+*/
+*{margin: 0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+body{
+   display:  grid;
+   font-family:roboto; 
+   align-items: center;
+   place-items:center;
+   text-align: center;
+}
+
+
+.contenedor{
+    display: block;
+    background-color: #F4F1EA ;
+    border-radius: 20px;
+    align-items:center;
+    align-content: center;
+    width:800px;
+    height:1000px; 
+    margin:10px auto 1px auto;
+    text-align: center;
+   
+}
+.contenedor h2{
+    color: #00366E;
+    margin: 10px auto 5px  auto;
+}
+.contenedor img{
+  border-radius: 20px;
+  width:  70%;
+  height: 70%;
+}
+
+.estiloServico{
+     padding: 0;
+     margin:0;
+}
+
+
+.puntaje{
+}
+
+.puntaje label{
+   display:inline-block;
+    cursor:pointer;
+    width: 50px;
+}
+
+.contenedor .calificaciónTexto .puntaje input{
+   display:none;
+}
+
+.puntaje label{
+    content: '\f005';
+    font-family: fontAwesome;
+    font-size:50px;
+    padding: 10px;
+    float:center;
+    color: gray;
+    transition: all 0.5s ease;
+    
+}
+input:not(:checked) label:hover,
+input:not(:checked) label:hover label{
+    color:black;
+}
+input::checked label{
+    color:blue;
+}
+input #5starServicio:checked label{
+    color:yellow;
+    text-shadow: 0 0 20px #952;
+}
+
+input:checked -foorm{
+    dislpay:block;
+}
