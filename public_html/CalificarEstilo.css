@@ -41,6 +41,13 @@ body{
     color: #00366E;
     margin: 10px auto 5px  auto;
 }
+.contenedor h3{
+    margin-left: 90px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 25px;
+    color: #00366E;
+}
 .contenedor img{
     border-radius: 20px;
     width:  600px;
