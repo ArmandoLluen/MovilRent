@@ -41,7 +41,7 @@ header{
     background-color: #00366E;
     border-radius: 15px;
     border: none;
-    
+    cursor:pointer;
 }
 .botones{
     margin: 10px;
@@ -50,4 +50,5 @@ header{
 .boton:hover{
     color: #1883ba;
     background-color: #ffffff;
+    
  }

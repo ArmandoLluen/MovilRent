@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="seleccionar_vehiculo.css" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>MovilRent </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header class="imenu">
+            <div id="menu"></div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("menu.html", function (data) {
+                $("#menu").replaceWith(data);
+            });</script>
+        </header>
+        <br>
+        
+        <section>
+            <div class="contenedor">
+                <br>
+                <img src="fotos/auto001.jpg" alt="contenedor">
+                <br>
+                <h3>Costo:</h3>
+                <p>Nombre de arrendador: <br></p>
+                <p class="respuesta">Juan Perez<br></p>
+                <p>Dirección: <br></p>
+                <p class="respuesta">Centro de lima 768</p>
+                <p>Calificacion: <br> </p>
+                <div class="calificacion_estrellas">
+                    <input disabled="disabled" type="radio" name="estrella" id="estrella5"><label for="estrella5"></label>
+                    <input disabled="disabled" type="radio" name="estrella" id="estrella4"><label for="estrella4"></label>
+                    <input disabled="disabled" type="radio" name="estrella" id="estrella3"><label for="estrella3"></label>
+                    <input disabled="disabled" checked="checked" type="radio" name="estrella" id="estrella2"><label for="estrella2"></label> 
+                    <input disabled="disabled" type="radio" name="estrella" id="estrella1"><label for="estrella1"></label>
+                </div>
+                <br>
+                <br>
+                <br>
+                <p>Modelo:<br></p>
+                <p class="respuesta"> Ford Fiesta</p>
+                <p>Caracteristicas:<br></p>
+                <p class="respuesta">Es de color ----- tiene lunas polarizadas<br></p>
+                <p>Disponibilidad:<br></p>
+                <p class="respuesta"><br></p>
+                <p>observaciones: <br> </p>
+                <p class="respuesta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <br>
+                <form class="contenedor-boton">
+                    <button class="boton">Alquilar</button>
+                </form>
+            </div> 
+            
+        </section>
+        
+        <br>
+        <footer>
+            <div id="footer"> </div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("footer.html", function (data) {
+                $("#footer").replaceWith(data);
+            });</script>
+        </footer>
+    </body>
+</html>

@@ -82,6 +82,7 @@ button{
     border-radius: 15px;
     border: none;
     margin: 10px auto;
+    cursor:pointer;
 }
 .login-button:hover{
     color: #1883ba;

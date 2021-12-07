@@ -71,8 +71,9 @@ button{
     border-radius: 15px;
     border: none;
     margin: 5px auto;
+    cursor: pointer;
 }
-.login-button:hover{
+.registrar-button:hover{
     color: #1883ba;
     background-color: #ffffff;
  }
