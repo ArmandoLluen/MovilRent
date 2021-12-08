@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/12/2021, 07:53:48 PM
+    Author     : User
+*/
+
+.calificacion_MovilRent {
+    margin-left: 250px;
+    position: absolute;
+    display: flex;
+    transform:rotateY(180deg);
+    float: right;
+}
+
+.calificacion_MovilRent input{
+    display: none;
+}
+.calificacion_MovilRent label{
+    display: block;
+    cursor: pointer;
+    width: 50px;
+}
+.calificacion_MovilRent label:before{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 50px;
+    color: #C4C4C4;
+}
+.calificacion_MovilRent label:after{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    color: #146B90;
+    opacity: 0;
+    top: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+.calificacion_MovilRent label:hover:after,
+.calificacion_MovilRent label:hover ~ label:after,
+.calificacion_MovilRent input:checked ~ label:after{
+    opacity:1;
+}
+

@@ -7,10 +7,10 @@ and open the template in the editor.
     Created on : 06/12/2021, 04:42:17 PM
     Author     : User
 */
-*{margin: 0;
+*{
+  margin: 0;
   padding:0;
   box-sizing: border-box;
-
 }
 
 body{
@@ -29,13 +29,14 @@ body{
     border-radius: 20px;
     align-items:center;
     align-content: center;
-    width:800px;
-    height:1000px; 
+    width:760px;
+    height:1580px; 
     margin:10px auto 1px auto;
     text-align: center;
-    
-   
 }
+
+
+
 .contenedor h2{
     font-size: 35px;
     color: #00366E;
@@ -69,6 +70,7 @@ body{
     transform:rotateY(180deg);
     float: right;
 }
+
 .calificacion_estrellas input{
     display: none;
 }
@@ -97,9 +99,40 @@ body{
     transition: .5s;
     text-shadow: 0 2px 5px rgba(0,0,0,.5);
 }
+
 .calificacion_estrellas label:hover:after,
 .calificacion_estrellas label:hover ~ label:after,
 .calificacion_estrellas input:checked ~ label:after{
     opacity:1;
 }
+
+.comentario{
+    border-radius: 5px;
+    width: 600px;
+    height: 250px;
+    background: white;
+    font-size: 18px;
+    border:none;
+    text-align:left;
+    margin: 10px 5px 20px  5px;
+    max-height: 250px;
+    max-width: 600px;
+    min-height: 250px;
+    min-width: 600px;
+}
+
+.btCalificar{
+    font-family: roboto;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #00366E;
+    border-radius: 15px;
+    border: none;
+    cursor:pointer;
+    margin: 20px auto 5px auto;
+}
+
 
