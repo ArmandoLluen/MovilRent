@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="solicitarEstilo.css" type="text/css"/>>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>MovilRent </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header class="imenu">
+            <div id="menu"></div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("menu.html", function (data) {
+                $("#menu").replaceWith(data);
+            });</script>
+        </header>
+        <br>
+        
+        <section>
+            <div class="contenedor">
+                <br>
+                <h2>SOLICITUD DE VEHÍCULO</h2>
+                <br>
+                <img src="fotos/auto001.jpg" alt="contenedor">
+                <h4>COSTO: 700 soles</h4>
+                <br>
+                <h3>Datos de arrendatario:</h3>
+                <p>Nombre de arrendador: Juan Perez<br></p>
+                <p>Dirección: Centro de lima 768<br></p>
+                <p>calificación de arrendador: <br> </p>
+                <div class="calificacion_estrellas" id="Arrendatario">
+                    <label for="estrella1A"></label>
+                    <label for="estrella2A"></label>
+                    <label for="estrella3A"></label>
+                    <label for="estrella4A"></label> 
+                    <label for="estrella5A"></label>
+                </div><br> <br> <br> 
+                <h3>Datos de solicitud:</h3>
+                <p>Fecha de solicitud:</p>
+                <input type="date"> 
+                <p>perido de arrendamiento:</p>
+                <div class="periodo"> 
+                    <div>DE: lunes</div>
+                    <div>A: viernes</div>
+                
+                </div>
+                <br> <br> 
+                <p>Número de brevete:</p>
+                <input> 
+                <div>Correo:<br>juan@gmail.com</div>
+                <div>Teléfono:<br>97562</div>
+                  <br> 
+                <a href="index.html" class="btCalificar" >Calificar</a>
+ 
+            </div> 
+            
+        </section>
+        
+        <br>
+        <footer>
+            <div id="footer"> </div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("footer.html", function (data) {
+                $("#footer").replaceWith(data);
+            });</script>
+        </footer>
+    </body>
+</html>

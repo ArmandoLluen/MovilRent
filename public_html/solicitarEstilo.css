@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/12/2021, 02:35:13 PM
+    Author     : User
+*/
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+   display:  grid;
+   font-family:roboto; 
+   align-items: center;
+   place-items:center;
+   max-width: 1000px;
+   margin:auto;
+}
+
+.contenedor{
+    display: block;
+    background-color: #F4F1EA ;
+    border-radius: 20px;
+    align-items:center;
+    align-content: center;
+    width:760px;
+    height:1200px; 
+    margin:10px auto 1px auto;
+    text-align: center;
+}
+.contenedor h2{
+    font-size: 35px;
+    color: #00366E;
+    margin: 10px auto 5px  auto;
+}
+.contenedor h4{
+    color: red;
+}
+.contenedor h3{
+    margin-left: 90px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 25px;
+    color: #00366E;
+}
+.contenedor img{
+    border-radius: 20px;
+    width:  600px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.contenedor p{
+    font-family: verdana;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.calificacion_estrellas {
+    margin-left: 250px;
+    position: absolute;
+    display: flex;
+    transform:rotateY(180deg);
+    float: right;
+}
+
+.calificacion_estrellas input{
+    display: none;
+}
+.calificacion_estrellas label{
+    display: block;
+    cursor: pointer;
+    width: 50px;
+}
+.calificacion_estrellas label:before{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 50px;
+    color: #C4C4C4;
+}
+
+.btCalificar{
+    font-family: roboto;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #00366E;
+    border-radius: 15px;
+    border: none;
+    cursor:pointer;
+    margin: 20px auto 5px auto;
+}
+.btCalificar:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+ }
+ .periodo{
+ }
+
+
