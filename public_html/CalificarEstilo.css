@@ -18,7 +18,6 @@ body{
    font-family:roboto; 
    align-items: center;
    place-items:center;
-   text-align: center;
    max-width: 1000px;
    margin:auto;
 }
@@ -34,9 +33,6 @@ body{
     margin:10px auto 1px auto;
     text-align: center;
 }
-
-
-
 .contenedor h2{
     font-size: 35px;
     color: #00366E;
@@ -134,5 +130,9 @@ body{
     cursor:pointer;
     margin: 20px auto 5px auto;
 }
+.btCalificar:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+ }
 
 
