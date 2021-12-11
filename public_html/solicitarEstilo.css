@@ -29,7 +29,7 @@ body{
     align-items:center;
     align-content: center;
     width:760px;
-    height:1200px; 
+    height:1450px; 
     margin:10px auto 1px auto;
     text-align: center;
 }
@@ -103,8 +103,31 @@ body{
 .btCalificar:hover{
     color: #1883ba;
     background-color: #ffffff;
+    margin:50px;
  }
- .periodo{
+ 
+ .periodo div{
+         display:inline-block ;
+         margin:20px;
  }
+ .datos div{
+         display:inline-block ;
+         margin:20px;
+         
+ }
+ .comentario{
+    border-radius: 5px;
+    width: 600px;
+    height: 150px;
+    background: white;
+    font-size: 18px;
+    border:none;
+    text-align:left;
+    margin: 10px 5px 20px  5px;
+    max-height: 250px;
+    max-width: 600px;
+    min-height: 250px;
+    min-width: 600px;
+}
 
 
