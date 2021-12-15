@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>MovilRent</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="buscar_vehiculo_estilo.css" type="text/css"/>
+
+    </head>
+    
+    <body>
+        <header class="imenu">
+            <div id="menu"> </div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("menu.html", function (data) {
+                $("#menu").replaceWith(data);
+            });</script>
+        </header>
+        <br>
+        <section style="text-align: center; display:block;">
+            <div class="opcion_vehiculo">
+                <img src="fotos/auto002.jpg" alt="auto"/>
+                <div class="rec_opcion">
+                    <div style="float:right; margin-top: 100px; margin-right: 50px;">
+                        <p class="costo">Costo: S/700</p>
+                        <br>
+                        <form>
+                             <button class="boton" formaction="seleccionar_vehiculo.html">Alquilar</button>
+                        </form>
+                    </div>
+                    <div>
+                        <p class="apartado">Nombre de arrendador:</p>
+                        <p class="respuesta">Juan Perez</p>
+                        <p class="apartado">Dirección:</p>
+                        <p class="respuesta">Av ... AAHH ... lt...</p>
+                        <p class="apartado">Características:</p>
+                        <p class="respuesta">N° Asientos: 4<br>Modelo:  A</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="opcion_vehiculo">
+                <img src="fotos/auto002.jpg" alt="auto"/>
+                <div class="rec_opcion">
+                    <div style="float:right; margin-top: 100px; margin-right: 50px;">
+                        <p class="costo">Costo: S/700</p>
+                        <br>
+                        <form>
+                             <button class="boton" formaction="seleccionar_vehiculo.html">Alquilar</button>
+                        </form>
+                    </div>
+                    <div>
+                        <p class="apartado">Nombre de arrendador:</p>
+                        <p class="respuesta">Juan Perez</p>
+                        <p class="apartado">Dirección:</p>
+                        <p class="respuesta">Av ... AAHH ... lt...</p>
+                        <p class="apartado">Características:</p>
+                        <p class="respuesta">N° Asientos: 4<br>Modelo:  A</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="opcion_vehiculo">
+                <img src="fotos/auto002.jpg" alt="auto"/>
+                <div class="rec_opcion">
+                    <div style="float:right; margin-top: 100px; margin-right: 50px;">
+                        <p class="costo">Costo: S/700</p>
+                        <br>
+                        <form>
+                             <button class="boton" formaction="seleccionar_vehiculo.html">Alquilar</button>
+                        </form>
+                    </div>
+                    <div>
+                        <p class="apartado">Nombre de arrendador:</p>
+                        <p class="respuesta">Juan Perez</p>
+                        <p class="apartado">Dirección:</p>
+                        <p class="respuesta">Av ... AAHH ... lt...</p>
+                        <p class="apartado">Características:</p>
+                        <p class="respuesta">N° Asientos: 4<br>Modelo:  A</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <div id="footer"> </div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("footer.html", function (data) {
+                $("#footer").replaceWith(data);
+            });</script>
+        </footer>
+    </body>
+</html>

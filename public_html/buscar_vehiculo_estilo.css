@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 dic. 2021, 17:32:09
+    Author     : Armando
+*/
+body{
+    margin: auto;
+}
+.opcion_vehiculo{
+    height: 250px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.opcion_vehiculo img{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 150px;
+}
+.rec_opcion{
+    background-color: #F4F1EA;
+    height: 300px;
+    width: 900px;
+    display: inline-block;
+    margin-left: 150px;
+    border-radius: 0px 70px 70px 0px;
+}
+.apartado{
+    margin-left: 175px;
+    text-align: left;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 600;
+}
+.respuesta{
+    margin-left: 175px;
+    font-family: roboto;
+    font-size: 20px;
+}
+.costo{
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+}

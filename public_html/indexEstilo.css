@@ -1,16 +1,18 @@
 body{
     font-family: roboto,helvatica;
     background: #ffffff;
-    max-width: 1000px;
     margin: auto;
 }
 .imenu {
     width: 100%;
     margin: auto;
 }
-.imenu img{
-    height: 512px;
-    width: 1213px;
+.banner{
+    background: white;
+    text-align: center;
+    
+}
+.banner img{
 }
 footer{
     width: 100%;
@@ -50,12 +52,15 @@ footer{
     border-radius: 30px;
     margin: 20px 40px auto;
 }
+.Ubicanos{
+    text-align: center;
+}
 .rec-serv form{
     margin: 15px 10px auto;
 }
 .rec-con{
     font-family: Post No Bills Colombo SemiBold;
-    font-size: 30px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 300;
     text-align: center;
@@ -66,23 +71,23 @@ footer{
     width: 500px;
     margin:10px 10px auto;
     display: inline-block;
-    float: right;
 }
 .mapa{
     width: 450px;
     height: 300px;
     border: none;
     border-radius: 15px;
+    display: inline-block;
 }
 .texto-con{
     font-family: Post No Bills Colombo SemiBold;
-    font-size: 25px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 300;
     line-height: 40px;
     text-align: center;
     display: inline-block;
-    float:  left;
+    margin-right: 30px;
 }
 .Ubicanos{
     height: 430px;
