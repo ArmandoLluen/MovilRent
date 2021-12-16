@@ -46,5 +46,9 @@ body{
     font-family: roboto;
     font-size: 20px;
     font-weight: 600;
-    color: red;
+    color: #00366E;
+}
+.datos{
+    text-align: left;
+    margin-left: 30px;
 }
