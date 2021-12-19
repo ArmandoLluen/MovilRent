@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/12/2021, 12:29:12 AM
+    Author     : User
+*/
+body{
+   font-family:roboto; 
+   align-items: center;
+   place-items:center;
+   margin:auto;
+}
+.contenedor{
+    display: block;
+    background-color: #F4F1EA ;
+    border-radius: 20px;
+    align-items:center;
+    align-content: center;
+    width:800px;
+    height:900px; 
+    margin:10px auto 1px auto;
+    text-align: center;
+}
+.contenedor h3{
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: red;
+}
+.contenedor h2{
+    font-size: 35px;
+    color: #00366E;
+    margin: 10px auto 10px  auto;   
+}
+.contenedor img{
+    border-radius: 20px;
+    width:  500px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.contenedor p{
+    font-family: verdana;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.contenedor h4{
+    font-size: 30px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.contenedor button{
+    display: inline-block;
+    font-family: roboto;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    cursor:pointer;
+    background-color: #00366E;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.contenedor div{
+    display:inline-block;
+}
+.contenedor-boton-cancelar button{
+    background-color: red;
+}
+button:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+ }
+ 
+.contenedor-boton-cancelar button:hover{
+    color: red;
+    background-color: #ffffff;
+ }
+.contenedorboton{
+    float:end;
+}
+

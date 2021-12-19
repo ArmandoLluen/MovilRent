@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="confirmarAlquilerEstilo.css" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>MovilRent </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header class="imenu">
+            <div id="menu"></div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("menu.html", function (data) {
+                $("#menu").replaceWith(data);
+            });</script>
+        </header>
+        <br>
+        
+        <section>
+            <div class="contenedor">
+                <h2>SOLICITUD</h2>
+                <h4>Datos de solicitud</h4>
+                <p>vehículo solicitado:</p>
+                <br>
+                <img src="fotos/auto001.jpg" alt="contenedor">
+                <br>
+                <div><p>Numero de placa:7684</p></div>
+                <div><p>Costo :700 soles</p></div>
+                <div><p>Nombre del chofer: Juan Perez</p></div>
+                <div><p>Dirección :Centro de lima 768</p></div>
+                <div><p>Número de vrebete:1872</p><p>fecha de solicitud:20/10/21</p></div>
+                <br>
+                <br>
+                <div class="contenedor-boton-aceptar">
+                    <button class="boton">Aceptar alquiler</button>
+                </div>
+                <div class="contenedor-boton-cancelar">
+                    <button class="boton">Cancelar alquiler</button>
+                </div>
+            </div> 
+            
+        </section>
+        
+        <br>
+        <footer>
+            <div id="footer"> </div>
+            <script src="//code.jquery.com/jquery.min.js"></script>
+            <script>$.get("footer.html", function (data) {
+                $("#footer").replaceWith(data);
+            });</script>
+        </footer>
+    </body>
+</html>
