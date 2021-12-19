@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 18 dic. 2021, 18:01:39
+    Created on : 19 dic. 2021, 11:34:15
     Author     : Armando
 */
 body{
@@ -139,25 +139,50 @@ body{
 }
 .contenido_slide{
     text-align: center;
-    align-items: center;
-    align-content: center;
     width:1100px;
     float:left;
     border-radius: 25px;
     border: 2px solid #C4C4C4;
+    margin: 10px 10px 10px 10px;
     padding: 20px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .datos .boton{
     float:right;
 }
-.contenido_slide p{
-    background-color:#F4F1EA;
-    padding:5px;
-    font-family: roboto;
-    font-size: 25px;
+
+.opcion_historial{
+    height: 250px;
+    display: block;
 }
-.subtitulo_veh{
+.opcion_historial img{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+}
+.rec_historial{
+    background-color: #F4F1EA;
+    height: 200px;
+    width: 650px;
+    display: inline-block;
+    margin-left: 100px;
+    border-radius: 0px 70px 70px 0px;
+}
+.apartado{
+    margin-left: 175px;
+    text-align: left;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 600;
+}
+.respuesta{
+    margin-left: 175px;
+    font-family: roboto;
+    font-size: 20px;
+}
+.subtitulo_alq{
     height: 30px;
     width: 150px;
     background: #F4F1EA;
@@ -174,53 +199,3 @@ body{
     padding: 10px;
     margin-right: 50px;
 }
-.tabla_vehiculos{
-    background-color: #F4F1EA;
-}
-.tabla_vehiculos th{
-    padding:10px 20px;
-}
-.tabla_vehiculos td{
-    border: solid 1px black;
-}
-.tabla_vehiculos thead{
-    background-color:#78CAD2;
-    border-bottom:2px solid black;
-    color:white;
-}
-.contenido_slide .boton{
-    margin: 25px;
-    float: right;
-}
-.boton_red{
-    font-family: roboto;
-    text-decoration: none;
-    padding: 5px;
-    font-size: 20px;
-    color: white;
-    background-color: red;
-    border-radius: 50%;
-    border: none;
-    cursor:pointer;
-}
-
-.boton_red:hover{
-    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
-    transition: .5s;
- }
- .boton_edi{
-    font-family: roboto;
-    text-decoration: none;
-    padding: 5px;
-    font-size: 20px;
-    color: black;
-    background-color: white;
-    border-radius: 25px;
-    border: none;
-    cursor:pointer;
-}
-.boton_edi:hover{
-    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
-    transition: .5s;
- }
-

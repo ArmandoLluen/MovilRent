@@ -6,7 +6,11 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <link rel="stylesheet" href="mis_vehiculos_estilo.css" type="text/css"/>
+        <link rel="stylesheet" href="mis_vehiculos_alquilados_estilo.css" type="text/css"/>
+        <link rel="stylesheet" href="mis_vehiculos_alquilados.css" type="text/css">
+        <link rel="stylesheet" href="mis_vehiculos_alquilados.css" type="text/css"/>
+
+
         <script src="https://kit.fontawesome.com/d608839a82.js" crossorigin="anonymous"></script>
         <title>MovilRent </title>
         <meta charset="UTF-8">
@@ -35,15 +39,15 @@ and open the template in the editor.
             </div>
             <div class="opciones">
                 <ul class="lista-opciones">
-                    <li ><a href="perfil.html"><i class="fas fa-home"></i> Mi Perfil</a></li>
-                    <li ><a><i class="fas fa-history"></i> Historiales</a>
+                    <li><a href="perfil.html"><i class="fas fa-home"></i> Mi Perfil</a></li>
+                    <li><a href="#"><i class="fas fa-history"></i> Historiales</a>
                         <ul>
-                            <li><a href="mis_alquileres.html">Mis Alquileres</a></li>
-                            <li><a href="mis_vehiculos_alquilados.html">Mis Vehiculos Alquilados</a></li>
+                            <li><a href="mis_alquileres.html"> Mis Alquileres</a></li>
+                            <li><a href="mis_vehiculos_alquilados.html"> Mis Vehiculos Alquilados</a></li>
                         </ul>
                     </li>
                     <li><a href="mis_vehiculos.html"><i class="fas fa-car"></i> Mis Vehiculos</a></li>
-                    <li><a><i class="far fa-bell"></i> Notificaciones</a></li>
+                    <li><a ><i class="far fa-bell"></i> Notificaciones</a></li>
                 </ul>
             </div>
             <script src="//code.jquery.com/jquery-1.12.0.min.js"></script> 
@@ -64,33 +68,46 @@ and open the template in the editor.
             </script>
         </div>
         <div class="contenido_slide" id="contenido_slide">
-            <div class="subtitulo_veh">mis vehiculos</div>
-            <table class="tabla_vehiculos">
-                <thead>
-                    <tr>
-                        <th>N°</th>
-                        <th>Numero de Placa</th> 
-                        <th>Modelo</th> 
-                        <th>Estado del Alquiler</th>
-                        <th>Costo diario</th> 
-                        <th>Opciones</th>
-                    </tr>
-                </thead>
-                <tr>
-                    <th>1</th>
-                    <th>fewf</th>
-                    <th>Mfewfo</th> 
-                    <th>disponible</th>
-                    <th>ewqe</th> 
-                    <th>
-                        <button class="boton_red">X</button>
-                        <button class="boton_edi">Editar</button>
-                    </th>
-                
-                </tr>
-            
-            </table>
-            <button class="boton">Agregar un nuevo Vehiculo</button>
+            <div class="subtitulo_alq">mis Vehiculos Alquilados</div>
+            <br> 
+            <br>
+            <br>
+            <br>
+            <div class="opcion_historial">
+                <img src="fotos/auto002.jpg" alt="auto"/>
+                <div class="rec_historial">
+                    <div style="float:right; margin-top: 100px; margin-right: 50px;">
+                        <br>
+                        <form>
+                             <button class="boton" formaction="CalificarChofer.html">Calificar</button>
+                        </form>
+                    </div>
+                    <div class="datos">
+                        <p class="apartado">Nombre del Chofer:</p>
+                        <p class="respuesta">Juan Perez</p>
+                        <p class="apartado">Costo:</p>
+                        <p class="respuesta">100</p>
+                    </div>
+                </div>
+            </div>
+            <br> 
+            <div class="opcion_historial">
+                <img src="fotos/auto002.jpg" alt="auto"/>
+                <div class="rec_historial">
+                    <div style="float:right; margin-top: 100px; margin-right: 50px;">
+                        <br>
+                        <form>
+                             <button class="boton" formaction="CalificarChofer.html">Calificar</button>
+                        </form>
+                    </div>
+                    <div class="datos">
+                        <p class="apartado">Nombre del Chofer:</p>
+                        <p class="respuesta">Juan Perez</p>
+                        <p class="apartado">Costo:</p>
+                        <p class="respuesta">100</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <br>
         <footer>

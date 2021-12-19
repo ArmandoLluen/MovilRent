@@ -38,23 +38,23 @@ and open the template in the editor.
                     <li ><a href="perfil.html"><i class="fas fa-home"></i> Mi Perfil</a></li>
                     <li ><a href="#"><i class="fas fa-history"></i> Historiales</a>
                         <ul>
-                            <li ><a href="#">Mis Alquileres</a></li>
-                            <li><a href="#">Mis Vehiculos Alquilados</a></li>
+                            <li><a href="mis_alquileres.html">Mis Alquileres</a></li>
+                            <li><a href="mis_vehiculos_alquilados.html">Mis Vehiculos Alquilados</a></li>
                         </ul>
                     </li>
                     <li><a href="mis_vehiculos.html"><i class="fas fa-car"></i> Mis Vehiculos</a></li>
-                    <li><a href="#"><i class="far fa-bell"></i> Notificaciones</a></li>
+                    <li><a ><i class="far fa-bell"></i> Notificaciones</a></li>
                 </ul>
             </div>
             <script src="//code.jquery.com/jquery-1.12.0.min.js"></script> 
             <script>
                 $(document).ready(function(){
                     $('.lista-opciones li:has(ul)').click(function(e){
-                        e.preventDefault();
                         if($(this).hasClass('activado')){
                             $(this).removeClass('activado');
-                            $('.lista-opciones li ul').slideUp();
+                            $(this).children('ul').slideUp();
                         }else{
+                            $('.lista-opciones li ul').slideUp()
                             $('.lista-opciones li').removeClass('activado');
                             $(this).addClass('activado');
                             $(this).children('ul').slideDown();
@@ -69,9 +69,7 @@ and open the template in the editor.
             <p>Correo: Movilrent@gmail.com</p>
             <p>telefono: 999999999</p>
             <button class="boton">Editar Datos</button>
-        
         </div>
-        <br>
         <footer>
             <div id="footer"> </div>
             <script src="//code.jquery.com/jquery.min.js"></script>
