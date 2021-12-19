@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 dic. 2021, 18:01:39
+    Author     : Armando
+*/
+body{
+    font-family: roboto,helvatica;
+    background: #ffffff;
+    margin: auto;
+}
+.con-datos{
+    margin-left: 25px;
+    border-radius: 20px;
+    width: 300px;
+    max-width: 400px;
+    padding: 15px;
+    float: left;
+    background: linear-gradient(60deg,#4AC0F2,#78CAD2);
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.foto_perfil{
+    background: white;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border: 5px solid #C4C4C4;
+}
+.foto_perfil button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top:0;
+    border: 5px solid #C4C4C4;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    cursor:pointer;
+    
+}
+.foto_perfil button:hover{
+    background-color: gray;
+}
+.foto_perfil button p:before{
+    content: '\f083';
+    font-family: fontAwesome;
+    font-size: 15px;
+    color:#78CAD2;
+}
+.foto_perfil img{
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+}
+.datos{
+    margin-right: 5px;
+    font-family: roboto;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.calificacion_estrellas {
+    text-align: center;
+    display:inline-flex;
+    transform:rotateY(180deg);
+}
+.calificacion_estrellas input{
+    display: none;
+}
+.calificacion_estrellas label{
+    display: block;
+    cursor: pointer;
+    width: 30px;
+}
+.calificacion_estrellas label:before{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 30px;
+    color: #C4C4C4;
+}
+.calificacion_estrellas label:after{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 30px;
+    color: #146B90;
+    opacity: 0;
+    top: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.calificacion_estrellas input:checked ~ label:after{
+    opacity:1;
+}
+.boton_perfil{
+    font-family: roboto;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #146B90;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    cursor:pointer;
+}
+ footer{
+     margin-top:15px;
+ }
