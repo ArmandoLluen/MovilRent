@@ -22,6 +22,7 @@ header{
 
 .menu div a:hover{
     background: white;
+    transition: .5s;
 }
 
 .icono{
@@ -51,6 +52,7 @@ header{
 .boton:hover{
     color: #1883ba;
     background-color: #ffffff;
+    transition: .5s;
  }
  .buscar{
      background: white;
