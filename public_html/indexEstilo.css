@@ -3,10 +3,6 @@ body{
     background: #ffffff;
     margin: auto;
 }
-.imenu {
-    width: 100%;
-    margin: auto;
-}
 .banner{
     background: white;
     text-align: center;
@@ -52,29 +48,26 @@ footer{
     border-radius: 30px;
     margin: 20px 40px auto;
 }
-.Ubicanos{
-    text-align: center;
-}
 .rec-serv form{
     margin: 15px 10px auto;
 }
 .rec-con{
     font-family: Post No Bills Colombo SemiBold;
-    font-size: 35px;
+    font-size: 30px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 200;
     text-align: center;
     color: white;
     background: #4AC0F2;
     border-radius: 15px;
-    height: 420px;
-    width: 500px;
-    margin:10px 10px auto;
+    height: 380px;
+    width: 450px;
     display: inline-block;
+    margin-left: 10px;
 }
 .mapa{
-    width: 450px;
-    height: 300px;
+    width: 400px;
+    height: 280px;
     border: none;
     border-radius: 15px;
     display: inline-block;
@@ -84,15 +77,13 @@ footer{
     font-size: 30px;
     font-style: normal;
     font-weight: 300;
-    line-height: 40px;
+    line-height: 60px;
     text-align: center;
     display: inline-block;
-    margin-right: 30px;
 }
 .Ubicanos{
-    height: 430px;
+    text-align: center;
     background-image: url(fotos/fondo_confeti.png);
     background-size: cover;
-    background-repeat:no-repeat;
     background-position: center center;
 }
