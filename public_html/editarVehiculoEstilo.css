@@ -10,7 +10,7 @@ and open the template in the editor.
 
 
 body{
-  
+  margin: auto;
 }
 .contenedor  {
      width: 1600px;
@@ -25,28 +25,30 @@ body{
          display: inline-block;
 }
 .izquierda{
+    text-align: center;
     width: 500px;
     height: 800px;
     background-color: gray;
     margin:10px auto;
     align-items: center;
-    
+    float: left;
+    margin-left: 50px;
 }
 
 .izquierda img{
     margin:5px auto;
-    border-radius:300px;
+    border-radius:50%;
     width: 350px;
     height: 350px;
-    
 }
 
 .datos{
   width: 800px;
   height: 800px;  
   background-color: blue;
-  margin:1px auto;
-  left: 50%;
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
 }
 
 .contenedor button{
