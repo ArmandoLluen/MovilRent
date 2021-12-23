@@ -14,7 +14,7 @@ body{
 }
 .con-datos{
     display: block;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-left: 25px;
     border-radius: 20px;
     width: 300px;
@@ -23,7 +23,7 @@ body{
     text-align: center;
 }
 .foto_perfil{
-    margin-top: 10px;
+    margin-top: 20px;
     background: white;
     position: relative;
     display: flex;
@@ -142,8 +142,7 @@ body{
     float:left;
     border-radius: 25px;
     border: 2px solid #C4C4C4;
-    margin: 10px 10px 10px 10px;
-    padding: 5px;
+    padding: 20px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .datos .boton{
