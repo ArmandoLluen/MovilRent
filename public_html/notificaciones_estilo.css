@@ -1,0 +1,226 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 dic. 2021, 18:01:39
+    Author     : Armando
+*/
+body{
+    font-family: roboto,helvatica;
+    background: #ffffff;
+    margin: auto;
+}
+.con-datos{
+    display: block;
+    margin-right: 10px;
+    margin-left: 25px;
+    border-radius: 20px;
+    width: 300px;
+    float: left;
+    background: linear-gradient(60deg,#4AC0F2,#78CAD2);
+    text-align: center;
+}
+.foto_perfil{
+    margin-top: 20px;
+    background: white;
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border: 5px solid #C4C4C4;
+}
+.foto_perfil button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top:0;
+    border: 5px solid #C4C4C4;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+}
+.foto_perfil button:hover{
+    background-color: gray;
+    transition: .5s;
+}
+.foto_perfil button p:before{
+    content: '\f083';
+    font-family: fontAwesome;
+    font-size: 15px;
+    color:#78CAD2;
+}
+.foto_perfil img{
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+}
+.calificacion_estrellas {
+    justify-content:center;
+    text-align: center;
+    display:inline-flex;
+    transform:rotateY(180deg);
+}
+.calificacion_estrellas input{
+    display: none;
+}
+.calificacion_estrellas label{
+    display: block;
+    cursor: pointer;
+    width: 30px;
+}
+.calificacion_estrellas label:before{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 30px;
+    color: #C4C4C4;
+}
+.calificacion_estrellas label:after{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 30px;
+    color: #146B90;
+    opacity: 0;
+    top: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.calificacion_estrellas input:checked ~ label:after{
+    opacity:1;
+}
+.opciones{
+    position: absolute;
+    float: left;
+    position: relative;
+    width: 300px;
+    font-family: Roboto;
+    color:white;
+    font-size: 20px;
+    font-weight: 200;
+}
+.opciones ul{
+    text-align: left;
+    list-style: none;
+}
+.opciones a{
+    text-decoration: none;
+    color:white;
+}
+.opciones .lista-opciones li a{
+    display:block;
+    padding: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.opciones .lista-opciones li a:hover{
+    background-color: #5497a7;
+    transition: .5s;
+   
+}
+.opciones .lista-opciones ul{
+    display: none;
+}
+.opciones .lista-opciones .activado > a{
+    background-color: #5497a7;
+}
+.opciones .lista-opciones ul li a{
+    background-color: #4AC0F2;
+}
+.contenido_slide{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width:1100px;
+    float:left;
+    border-radius: 25px;
+    border: 2px solid #C4C4C4;
+    padding: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.datos .boton{
+    float:right;
+}
+.contenido_slide p{
+    background-color:#F4F1EA;
+    padding:5px;
+    font-family: roboto;
+    font-size: 25px;
+}
+.subtitulo_veh{
+    height: 30px;
+    width: 150px;
+    background: #F4F1EA;
+    border-radius: 15px;
+    font-family: Patrick Hand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #222D6D;
+    float: left;
+    padding: 10px;
+    margin-right: 50px;
+}
+.tabla_vehiculos{
+    background-color: #F4F1EA;
+}
+.tabla_vehiculos th{
+    padding:10px 20px;
+}
+.tabla_vehiculos td{
+    border: solid 1px black;
+}
+.tabla_vehiculos thead{
+    background-color:#78CAD2;
+    border-bottom:2px solid black;
+    color:white;
+}
+.contenido_slide .boton{
+    margin: 25px;
+    float: right;
+}
+.boton_red{
+    font-family: roboto;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    border: none;
+    cursor:pointer;
+}
+
+.boton_red:hover{
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+    transition: .5s;
+ }
+ .boton_edi{
+    font-family: roboto;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    cursor:pointer;
+}
+.boton_edi:hover{
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+    transition: .5s;
+ }
+
